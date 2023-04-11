@@ -27,6 +27,9 @@ namespace Operation
         private void callForm2(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
+            f2.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f2);
             f2.Show();
 
         }
@@ -34,6 +37,9 @@ namespace Operation
         private void callForm3(object sender, EventArgs e)
         {
             callForm3 f3 = new callForm3();
+            f3.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f3);
             f3.Show();
         }
 
