@@ -40,8 +40,8 @@
             this.btnCreditCard = new System.Windows.Forms.Button();
             this.btnCash = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.txtList = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -87,6 +87,7 @@
             this.btnLemon.TabIndex = 1;
             this.btnLemon.Text = "檸檬";
             this.btnLemon.UseVisualStyleBackColor = true;
+            this.btnLemon.Click += new System.EventHandler(this.btnLemon_Click);
             // 
             // btnApple
             // 
@@ -165,15 +166,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "購物清單";
             // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(206, 320);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(70, 39);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "清除清單";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
             // txtList
             // 
             this.txtList.Location = new System.Drawing.Point(17, 22);
@@ -183,7 +175,16 @@
             this.txtList.Size = new System.Drawing.Size(251, 275);
             this.txtList.TabIndex = 5;
             // 
-            // callForm4
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(206, 320);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(70, 39);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "清除清單";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // callForm3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,7 +193,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "callForm4";
+            this.Name = "callForm3";
             this.Text = "Bar POS";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

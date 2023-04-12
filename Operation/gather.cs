@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Operation
 {
-    public class F2
-
+    public struct Product
     {
-       
+        public string Name;
+        public decimal Price;
+        public int Quantity;
     }
 }
