@@ -1,6 +1,6 @@
 ﻿namespace Operation
 {
-    partial class callForm3
+    partial class callForm2
     {
         /// <summary>
         /// Required designer variable.

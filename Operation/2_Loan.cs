@@ -11,9 +11,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Operation
 {
-    public partial class callForm3 : Form
+    public partial class callForm2 : Form
     {
-        public callForm3()
+        public callForm2()
         {
             InitializeComponent();
         }
@@ -25,11 +25,11 @@ namespace Operation
             double rate = double.Parse(textBox3.Text)/100/12;  //利率(%)
             int payment = int.Parse(textBox4.Text);  //頭期款
 
-            string resoult = "";
+            string result = "";
             double calculate = (Math.Pow((1 + rate), month) * rate)/ (Math.Pow((1 + rate), month) - 1);
             int calculate2 = (int)Math.Round((tatle * calculate));
-            resoult = Convert.ToString(calculate2);
-            MessageBox.Show("月付額: "+resoult + "元");
+            result = Convert.ToString(calculate2);
+            MessageBox.Show("月付額: "+result + "元");
 
             //每月應付本息金額之平均攤還率＝{[(1＋月利率)^月數]×月利率}÷{[(1＋月利率)^月數]－1}
             //平均每月應攤付本息金額＝貸款本金×每月應付本息金額之平均攤還率＝每月應還本金金額＋每月應付利息金額
@@ -42,11 +42,11 @@ namespace Operation
             double rate = double.Parse(textBox3.Text) / 100 / 12;  //利率(%)
             int payment = int.Parse(textBox4.Text);  //頭期款
 
-            string resoult2 = "";
+            string result2 = "";
             double calculate = (Math.Pow((1 + rate), month) * rate) / (Math.Pow((1 + rate), month) - 1);
             int calculate2 = (int)Math.Round((tatle * calculate));
-            resoult2 = Convert.ToString(calculate2* month);
-            MessageBox.Show("總付款: " + resoult2 + "元");
+            result2 = Convert.ToString(calculate2* month);
+            MessageBox.Show("總付款: " + result2 + "元");
 
 
         }
