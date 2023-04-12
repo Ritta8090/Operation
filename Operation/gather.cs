@@ -11,5 +11,6 @@ namespace Operation
         public string Name;
         public decimal Price;
         public int Quantity;
+        public string Message;
     }
 }

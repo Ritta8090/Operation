@@ -54,36 +54,41 @@
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.btnLemon);
             this.groupBox1.Controls.Add(this.btnApple);
-            this.groupBox1.Location = new System.Drawing.Point(13, 26);
+            this.groupBox1.Location = new System.Drawing.Point(17, 32);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(170, 239);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(227, 299);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "菜單Menu";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(88, 130);
+            this.button4.Location = new System.Drawing.Point(117, 162);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(70, 97);
+            this.button4.Size = new System.Drawing.Size(93, 121);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(8, 130);
+            this.button3.Location = new System.Drawing.Point(11, 162);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 97);
+            this.button3.Size = new System.Drawing.Size(93, 121);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // btnLemon
             // 
-            this.btnLemon.Location = new System.Drawing.Point(88, 21);
+            this.btnLemon.Location = new System.Drawing.Point(117, 26);
+            this.btnLemon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLemon.Name = "btnLemon";
-            this.btnLemon.Size = new System.Drawing.Size(70, 97);
+            this.btnLemon.Size = new System.Drawing.Size(93, 121);
             this.btnLemon.TabIndex = 1;
             this.btnLemon.Text = "檸檬";
             this.btnLemon.UseVisualStyleBackColor = true;
@@ -91,9 +96,10 @@
             // 
             // btnApple
             // 
-            this.btnApple.Location = new System.Drawing.Point(8, 21);
+            this.btnApple.Location = new System.Drawing.Point(11, 26);
+            this.btnApple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnApple.Name = "btnApple";
-            this.btnApple.Size = new System.Drawing.Size(70, 97);
+            this.btnApple.Size = new System.Drawing.Size(93, 121);
             this.btnApple.TabIndex = 0;
             this.btnApple.Text = "蘋果";
             this.btnApple.UseVisualStyleBackColor = true;
@@ -102,18 +108,21 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtPrice);
-            this.groupBox2.Location = new System.Drawing.Point(202, 26);
+            this.groupBox2.Location = new System.Drawing.Point(269, 32);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(173, 96);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(231, 120);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "總金額 Total Price";
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(47, 51);
+            this.txtPrice.Location = new System.Drawing.Point(63, 64);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(100, 22);
+            this.txtPrice.Size = new System.Drawing.Size(132, 25);
             this.txtPrice.TabIndex = 0;
             // 
             // groupBox3
@@ -121,9 +130,11 @@
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.btnCreditCard);
             this.groupBox3.Controls.Add(this.btnCash);
-            this.groupBox3.Location = new System.Drawing.Point(202, 142);
+            this.groupBox3.Location = new System.Drawing.Point(269, 178);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(173, 96);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(231, 120);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "付款方式";
@@ -131,26 +142,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 81);
+            this.label1.Location = new System.Drawing.Point(115, 101);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 12);
+            this.label1.Size = new System.Drawing.Size(89, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "信用卡享9折";
             // 
             // btnCreditCard
             // 
-            this.btnCreditCard.Location = new System.Drawing.Point(88, 37);
+            this.btnCreditCard.Location = new System.Drawing.Point(117, 46);
+            this.btnCreditCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCreditCard.Name = "btnCreditCard";
-            this.btnCreditCard.Size = new System.Drawing.Size(75, 23);
+            this.btnCreditCard.Size = new System.Drawing.Size(100, 29);
             this.btnCreditCard.TabIndex = 1;
             this.btnCreditCard.Text = "信用卡";
             this.btnCreditCard.UseVisualStyleBackColor = true;
             // 
             // btnCash
             // 
-            this.btnCash.Location = new System.Drawing.Point(7, 37);
+            this.btnCash.Location = new System.Drawing.Point(9, 46);
+            this.btnCash.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCash.Name = "btnCash";
-            this.btnCash.Size = new System.Drawing.Size(75, 23);
+            this.btnCash.Size = new System.Drawing.Size(100, 29);
             this.btnCash.TabIndex = 0;
             this.btnCash.Text = "現金";
             this.btnCash.UseVisualStyleBackColor = true;
@@ -159,40 +173,46 @@
             // 
             this.groupBox4.Controls.Add(this.txtList);
             this.groupBox4.Controls.Add(this.button7);
-            this.groupBox4.Location = new System.Drawing.Point(398, 26);
+            this.groupBox4.Location = new System.Drawing.Point(531, 32);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(282, 365);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Size = new System.Drawing.Size(376, 456);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "購物清單";
             // 
             // txtList
             // 
-            this.txtList.Location = new System.Drawing.Point(17, 22);
+            this.txtList.Location = new System.Drawing.Point(23, 28);
+            this.txtList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtList.Multiline = true;
             this.txtList.Name = "txtList";
             this.txtList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtList.Size = new System.Drawing.Size(251, 275);
+            this.txtList.Size = new System.Drawing.Size(333, 343);
             this.txtList.TabIndex = 5;
+            this.txtList.TextChanged += new System.EventHandler(this.txtList_TextChanged);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(206, 320);
+            this.button7.Location = new System.Drawing.Point(275, 400);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(70, 39);
+            this.button7.Size = new System.Drawing.Size(93, 49);
             this.button7.TabIndex = 4;
             this.button7.Text = "清除清單";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // callForm3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 425);
+            this.ClientSize = new System.Drawing.Size(971, 531);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "callForm3";
             this.Text = "Bar POS";
             this.groupBox1.ResumeLayout(false);

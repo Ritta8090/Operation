@@ -18,51 +18,59 @@ namespace Operation
         }
         //txtPrice
         //txtList
-        void ShowProductList()
+        void ShowProductList(Product pro)
         {
-            //decimal totalPrice = 0;
-            //txtList.Text = "\n";
+            if ()
             
-            foreach (Product pro in IsPro)
-            {
-                txtList.Text = $"{pro.Name}" +$"X{pro.Quantity}"+
-                    $",共計{pro.Price}"+"元\r\n";
-                //totalPrice += (pro).Price;
-            }
+            
+            
+            
+            txtList.Text = "";
+            txtList.Text += pro.Message + "\n";
+            
+           
 
-       
+
         }
-        List<Product> IsPro = new List<Product>();
+       
 
+        int appleCount,lemonCount = 0;
 
-        int i = 1;
         private void btnApple_Click(object sender, EventArgs e)
         {
-            Product Pro;
-            Pro.Name = "蘋果";
-            Pro.Price = 30*i;
-            Pro.Quantity = i++;
+            //int appleCount = 0;
+            Product apple;                 //宣告
+            apple.Name = "蘋果";
+            apple.Quantity = ++appleCount;
+            apple.Price = 30* appleCount;
+            apple.Message = $"蘋果 X {apple.Quantity} ,共計 {apple.Price} 元";
 
-            IsPro.Add(Pro);
 
-            ShowProductList();
+            //IsPro.Add(apple);
+
+            ShowProductList(apple);
 
 
         }
 
         private void btnLemon_Click(object sender, EventArgs e)
         {
-            Product Pro;
-            Pro.Name = "檸檬";
-            Pro.Price = 20 * i;
-            Pro.Quantity = i++;
+            //int lemonCount = 0;
+            Product lemon;
+            lemon.Name = "檸檬";
+            lemon.Quantity = ++lemonCount;
+            lemon.Price = 20 * lemonCount;
+            lemon.Message = $"檸檬 X {lemon.Quantity},共計{lemon.Price} 元";
 
-            IsPro.Add(Pro);
+            //IsPro.Add(lemon);
 
-            ShowProductList();
+            ShowProductList(lemon);
         }
 
-        
+        private void txtList_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
