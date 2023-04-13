@@ -14,7 +14,6 @@ namespace Operation
         [STAThread]
         static void Main()
         {
-            string a = "123";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form0());
