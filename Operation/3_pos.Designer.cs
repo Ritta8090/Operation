@@ -195,7 +195,7 @@
             this.txtList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtList.Size = new System.Drawing.Size(333, 343);
             this.txtList.TabIndex = 5;
-            this.txtList.TextChanged += new System.EventHandler(this.txtList_TextChanged);
+            
             // 
             // btnClear
             // 
