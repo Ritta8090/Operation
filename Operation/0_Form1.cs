@@ -56,5 +56,68 @@ namespace Operation
             splitContainer2.Panel2.Controls.Add(f3);
             f3.Show();
         }
+
+        private void callForm4(object sender, EventArgs e)
+        {
+            callForm4 f4 = new callForm4();
+            f4.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f4);
+            f4.Show();
+        }
+
+        private void callForm5(object sender, EventArgs e)
+        {
+            callForm5 f5 = new callForm5();
+            f5.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f5);
+            f5.Show();
+        }
+
+        private void callForm6(object sender, EventArgs e)
+        {
+            callForm6 f6 = new callForm6();
+            f6.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f6);
+            f6.Show();
+        }
+
+        private void callForm7(object sender, EventArgs e)
+        {
+            callForm7 f7 = new callForm7();
+            f7.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f7);
+            f7.Show();
+        }
+        
+        private void callForm8(object sender, EventArgs e)
+        {
+            callForm8 f8 = new callForm8();
+            f8.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f8);
+            f8.Show();
+        }
+
+        private void callForm9(object sender, EventArgs e)
+        {
+            callForm9 f9 = new callForm9();
+            f9.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f9);
+            f9.Show();
+        }
+
+        private void callForm10(object sender, EventArgs e)
+        {
+            callForm10 f10 = new callForm10();
+            f10.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f10);
+            f10.Show();
+        }
     }
 }

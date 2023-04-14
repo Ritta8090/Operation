@@ -1,6 +1,6 @@
 ﻿namespace Operation
 {
-    partial class callForm5
+    partial class callForm9
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // callForm5
+            // callForm9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 440);
-            this.Name = "callForm5";
-            this.Text = "Student_StructForm";
+            this.ClientSize = new System.Drawing.Size(507, 396);
+            this.Name = "callForm9";
+            this.Text = "My Homework_0711_Method";
             this.ResumeLayout(false);
 
         }

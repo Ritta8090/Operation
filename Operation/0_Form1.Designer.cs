@@ -195,6 +195,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "0716_XOGame";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.callForm10);
             // 
             // button9
             // 
@@ -206,6 +207,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "0712_ForDoWhile";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.callForm9);
             // 
             // button8
             // 
@@ -217,6 +219,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "0711_MyClac";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.callForm8);
             // 
             // button7
             // 
@@ -228,6 +231,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "0711_Method";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.callForm7);
             // 
             // button6
             // 
@@ -239,6 +243,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "0710_StudentSGrade_List";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.callForm6);
             // 
             // button5
             // 
@@ -250,6 +255,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "0709_StudentSGrade";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.callForm5);
             // 
             // button4
             // 
@@ -261,6 +267,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "0708_Student_StructForm";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.callForm4);
             // 
             // button3
             // 

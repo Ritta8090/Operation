@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace Operation
 {
-    public partial class CallForm11 : Form
+    public partial class callForm4 : Form
     {
-        public CallForm11()
+   
+        public callForm4()
         {
             InitializeComponent();
+        }
+
+        
+
+
+        private void btnStore_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

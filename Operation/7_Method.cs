@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Operation
 {
-    public partial class CallForm6 : Form
+    public partial class callForm7 : Form
     {
-        public CallForm6()
+        public callForm7()
         {
             InitializeComponent();
         }

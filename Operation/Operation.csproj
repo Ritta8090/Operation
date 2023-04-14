@@ -52,17 +52,17 @@
     <Compile Include="0_Form1.Designer.cs">
       <DependentUpon>0_Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form10.cs">
+    <Compile Include="9_ForDoWhile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.cs">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <Compile Include="9_ForDoWhile.Designer.cs">
+      <DependentUpon>9_ForDoWhile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11.cs">
+    <Compile Include="10_XOGame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11.Designer.cs">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <Compile Include="10_XOGame.Designer.cs">
+      <DependentUpon>10_XOGame.cs</DependentUpon>
     </Compile>
     <Compile Include="1_Hello.cs">
       <SubType>Form</SubType>
@@ -82,35 +82,35 @@
     <Compile Include="3_pos.Designer.cs">
       <DependentUpon>3_pos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="4_Student_StructForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="4_Student_StructForm.Designer.cs">
+      <DependentUpon>4_Student_StructForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="5_StudentGrade.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="5_StudentGrade.Designer.cs">
+      <DependentUpon>5_StudentGrade.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="6_StudentGrade_List.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="6_StudentGrade_List.Designer.cs">
+      <DependentUpon>6_StudentGrade_List.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="7_Method.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="7_Method.Designer.cs">
+      <DependentUpon>7_Method.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="8_MyClac.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="8_MyClac.Designer.cs">
+      <DependentUpon>8_MyClac.cs</DependentUpon>
     </Compile>
     <Compile Include="gather.cs" />
     <Compile Include="Loan2.cs">
@@ -124,11 +124,11 @@
     <EmbeddedResource Include="0_Form1.resx">
       <DependentUpon>0_Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10.resx">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <EmbeddedResource Include="9_ForDoWhile.resx">
+      <DependentUpon>9_ForDoWhile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <EmbeddedResource Include="10_XOGame.resx">
+      <DependentUpon>10_XOGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="1_Hello.resx">
       <DependentUpon>1_Hello.cs</DependentUpon>
@@ -139,20 +139,20 @@
     <EmbeddedResource Include="3_pos.resx">
       <DependentUpon>3_pos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="4_Student_StructForm.resx">
+      <DependentUpon>4_Student_StructForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="5_StudentGrade.resx">
+      <DependentUpon>5_StudentGrade.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="6_StudentGrade_List.resx">
+      <DependentUpon>6_StudentGrade_List.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="7_Method.resx">
+      <DependentUpon>7_Method.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="8_MyClac.resx">
+      <DependentUpon>8_MyClac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan2.resx">
       <DependentUpon>Loan2.cs</DependentUpon>

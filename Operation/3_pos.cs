@@ -14,8 +14,8 @@ namespace Operation
 {
     public partial class callForm3 : Form
     {
-        int appleCount, lemonCount, eggonCount, milkCount = 0;
-        string appleMassage, lemonMassage, eggMassage, milkMassage = "";
+        int appleCount, lemonCount, eggonCount, milkCount ;
+        string appleMassage, lemonMassage, eggMassage, milkMassage ;
 
         public callForm3()
         {
