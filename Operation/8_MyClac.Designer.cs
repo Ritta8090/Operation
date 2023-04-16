@@ -45,9 +45,10 @@
             // 
             this.N1label.AutoSize = true;
             this.N1label.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.N1label.Location = new System.Drawing.Point(40, 33);
+            this.N1label.Location = new System.Drawing.Point(53, 41);
+            this.N1label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.N1label.Name = "N1label";
-            this.N1label.Size = new System.Drawing.Size(49, 20);
+            this.N1label.Size = new System.Drawing.Size(60, 24);
             this.N1label.TabIndex = 0;
             this.N1label.Text = "Num1:";
             // 
@@ -55,49 +56,55 @@
             // 
             this.N2label.AutoSize = true;
             this.N2label.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.N2label.Location = new System.Drawing.Point(40, 76);
+            this.N2label.Location = new System.Drawing.Point(53, 95);
+            this.N2label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.N2label.Name = "N2label";
-            this.N2label.Size = new System.Drawing.Size(49, 20);
+            this.N2label.Size = new System.Drawing.Size(60, 24);
             this.N2label.TabIndex = 1;
             this.N2label.Text = "Num2:";
             // 
             // txtN1
             // 
-            this.txtN1.Location = new System.Drawing.Point(95, 30);
+            this.txtN1.Location = new System.Drawing.Point(127, 38);
+            this.txtN1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(100, 22);
+            this.txtN1.Size = new System.Drawing.Size(132, 25);
             this.txtN1.TabIndex = 2;
             // 
             // txtN2
             // 
-            this.txtN2.Location = new System.Drawing.Point(95, 74);
+            this.txtN2.Location = new System.Drawing.Point(127, 92);
+            this.txtN2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(100, 22);
+            this.txtN2.Size = new System.Drawing.Size(132, 25);
             this.txtN2.TabIndex = 3;
             // 
             // labAnswer
             // 
             this.labAnswer.AutoSize = true;
             this.labAnswer.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labAnswer.Location = new System.Drawing.Point(19, 146);
+            this.labAnswer.Location = new System.Drawing.Point(25, 182);
+            this.labAnswer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labAnswer.Name = "labAnswer";
-            this.labAnswer.Size = new System.Drawing.Size(77, 19);
+            this.labAnswer.Size = new System.Drawing.Size(93, 24);
             this.labAnswer.TabIndex = 4;
             this.labAnswer.Text = "Answer: ";
             // 
             // txtAnswer
             // 
-            this.txtAnswer.Location = new System.Drawing.Point(95, 143);
+            this.txtAnswer.Location = new System.Drawing.Point(127, 179);
+            this.txtAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAnswer.Name = "txtAnswer";
-            this.txtAnswer.Size = new System.Drawing.Size(100, 22);
+            this.txtAnswer.Size = new System.Drawing.Size(132, 25);
             this.txtAnswer.TabIndex = 5;
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(220, 23);
+            this.btnAdd.Location = new System.Drawing.Point(293, 29);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(50, 42);
+            this.btnAdd.Size = new System.Drawing.Size(67, 52);
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -106,48 +113,55 @@
             // btnSubtract
             // 
             this.btnSubtract.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubtract.Location = new System.Drawing.Point(220, 74);
+            this.btnSubtract.Location = new System.Drawing.Point(293, 92);
+            this.btnSubtract.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubtract.Name = "btnSubtract";
-            this.btnSubtract.Size = new System.Drawing.Size(50, 42);
+            this.btnSubtract.Size = new System.Drawing.Size(67, 52);
             this.btnSubtract.TabIndex = 7;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
+            this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnMultiply
             // 
             this.btnMultiply.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiply.Location = new System.Drawing.Point(280, 23);
+            this.btnMultiply.Location = new System.Drawing.Point(373, 29);
+            this.btnMultiply.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiply.Name = "btnMultiply";
-            this.btnMultiply.Size = new System.Drawing.Size(50, 42);
+            this.btnMultiply.Size = new System.Drawing.Size(67, 52);
             this.btnMultiply.TabIndex = 8;
             this.btnMultiply.Text = "x";
             this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // btnDivided
             // 
             this.btnDivided.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDivided.Location = new System.Drawing.Point(280, 74);
+            this.btnDivided.Location = new System.Drawing.Point(373, 92);
+            this.btnDivided.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDivided.Name = "btnDivided";
-            this.btnDivided.Size = new System.Drawing.Size(50, 42);
+            this.btnDivided.Size = new System.Drawing.Size(67, 52);
             this.btnDivided.TabIndex = 9;
             this.btnDivided.Text = "/";
             this.btnDivided.UseVisualStyleBackColor = true;
+            this.btnDivided.Click += new System.EventHandler(this.btnDivided_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(20, 119);
+            this.label3.Location = new System.Drawing.Point(27, 149);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(203, 16);
+            this.label3.Size = new System.Drawing.Size(270, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "= = = = = = = = = = = = = = = =  ";
             // 
             // callForm8
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 201);
+            this.ClientSize = new System.Drawing.Size(465, 251);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnDivided);
             this.Controls.Add(this.btnMultiply);
@@ -159,6 +173,7 @@
             this.Controls.Add(this.txtN1);
             this.Controls.Add(this.N2label);
             this.Controls.Add(this.N1label);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "callForm8";
             this.Text = "My Homework_0711_MyClac";
             this.ResumeLayout(false);

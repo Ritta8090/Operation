@@ -12,5 +12,7 @@ namespace Operation
         public decimal Price;
         public int Quantity;
         public string Message;
-    }
+    }     //pos表單
+
+    
 }
