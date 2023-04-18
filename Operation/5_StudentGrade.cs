@@ -20,18 +20,28 @@ namespace Operation
         
         private void button1_Click(object sender, EventArgs e)
         {
-            name = txtName.Text;
-            chinese = Convert.ToInt32(txtChinese.Text);
-            english = Convert.ToInt32(txtEnglish.Text);
-            math = Convert.ToInt32(txtMath.Text);
-            totalScore = chinese + english + math;
-            average = totalScore / 3;
+            
+            //name = txtName.Text;
+            //chinese = Convert.ToInt32(txtChinese.Text);
+            //english = Convert.ToInt32(txtEnglish.Text);
+            //math = Convert.ToInt32(txtMath.Text);
+            //totalScore = chinese + english + math;
+            //average = totalScore / 3;
+
+
+            DataGridView datagridview = new DataGridView();
+            DataGridViewTextBoxColumn dataGridView1 = new DataGridViewTextBoxColumn();
+            DataGridViewTextBoxColumn dataGridViewCol2 = new DataGridViewTextBoxColumn();
+            dataGridView1.name = txtName.Text;
+            dataGridViewCol1.HeaderText = "Name";
+            dataGridViewCol2.Name = "dataGridViewCol2";
+            dataGridViewCol2.HeaderText = "Count";
         }
 
         public void plan()
         { 
             List<strings> Str = new List<strings>();
-            Str.Add(new strings() { });
+            Str.Add(new strings() {name = txtName.Text, });
         
         }
 
@@ -39,6 +49,7 @@ namespace Operation
         {
             public string name, low, high;
             public int chinese, english, math, totalScore, average;
+
         }
 
     }

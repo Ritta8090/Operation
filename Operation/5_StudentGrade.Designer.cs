@@ -30,6 +30,14 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chinese = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.english = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.math = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.average = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.low = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.high = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtMath = new System.Windows.Forms.TextBox();
             this.labMath = new System.Windows.Forms.Label();
             this.txtEnglish = new System.Windows.Forms.TextBox();
@@ -44,14 +52,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chinese = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.english = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.math = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.average = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.low = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.high = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalScore2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.average2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.high2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.low2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -84,6 +88,62 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(398, 244);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // name
+            // 
+            this.name.HeaderText = "姓名:";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 55;
+            // 
+            // chinese
+            // 
+            this.chinese.HeaderText = "國文";
+            this.chinese.Name = "chinese";
+            this.chinese.ReadOnly = true;
+            this.chinese.Width = 52;
+            // 
+            // english
+            // 
+            this.english.HeaderText = "英文";
+            this.english.Name = "english";
+            this.english.ReadOnly = true;
+            this.english.Width = 52;
+            // 
+            // math
+            // 
+            this.math.HeaderText = "數學";
+            this.math.Name = "math";
+            this.math.ReadOnly = true;
+            this.math.Width = 52;
+            // 
+            // totalScore
+            // 
+            this.totalScore.HeaderText = "總分";
+            this.totalScore.Name = "totalScore";
+            this.totalScore.ReadOnly = true;
+            this.totalScore.Width = 52;
+            // 
+            // average
+            // 
+            this.average.HeaderText = "平均";
+            this.average.Name = "average";
+            this.average.ReadOnly = true;
+            this.average.Width = 52;
+            // 
+            // low
+            // 
+            this.low.HeaderText = "最低";
+            this.low.Name = "low";
+            this.low.ReadOnly = true;
+            this.low.Width = 52;
+            // 
+            // high
+            // 
+            this.high.HeaderText = "最高";
+            this.high.Name = "high";
+            this.high.ReadOnly = true;
+            this.high.Width = 52;
             // 
             // txtMath
             // 
@@ -199,67 +259,45 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(158, 267);
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.totalScore2,
+            this.average2,
+            this.high2,
+            this.low2});
+            this.dataGridView2.Location = new System.Drawing.Point(158, 262);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(398, 119);
             this.dataGridView2.TabIndex = 21;
             // 
-            // name
+            // totalScore2
             // 
-            this.name.HeaderText = "姓名:";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            this.name.Width = 55;
+            this.totalScore2.Frozen = true;
+            this.totalScore2.HeaderText = "總分";
+            this.totalScore2.Name = "totalScore2";
+            this.totalScore2.ReadOnly = true;
+            this.totalScore2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // chinese
+            // average2
             // 
-            this.chinese.HeaderText = "國文";
-            this.chinese.Name = "chinese";
-            this.chinese.ReadOnly = true;
-            this.chinese.Width = 52;
+            this.average2.Frozen = true;
+            this.average2.HeaderText = "平均";
+            this.average2.Name = "average2";
+            this.average2.ReadOnly = true;
             // 
-            // english
+            // high2
             // 
-            this.english.HeaderText = "英文";
-            this.english.Name = "english";
-            this.english.ReadOnly = true;
-            this.english.Width = 52;
+            this.high2.Frozen = true;
+            this.high2.HeaderText = "最高分";
+            this.high2.Name = "high2";
+            this.high2.ReadOnly = true;
             // 
-            // math
+            // low2
             // 
-            this.math.HeaderText = "數學";
-            this.math.Name = "math";
-            this.math.ReadOnly = true;
-            this.math.Width = 52;
-            // 
-            // totalScore
-            // 
-            this.totalScore.HeaderText = "總分";
-            this.totalScore.Name = "totalScore";
-            this.totalScore.ReadOnly = true;
-            this.totalScore.Width = 52;
-            // 
-            // average
-            // 
-            this.average.HeaderText = "平均";
-            this.average.Name = "average";
-            this.average.ReadOnly = true;
-            this.average.Width = 52;
-            // 
-            // low
-            // 
-            this.low.HeaderText = "最低";
-            this.low.Name = "low";
-            this.low.ReadOnly = true;
-            this.low.Width = 52;
-            // 
-            // high
-            // 
-            this.high.HeaderText = "最高";
-            this.high.Name = "high";
-            this.high.ReadOnly = true;
-            this.high.Width = 52;
+            this.low2.Frozen = true;
+            this.low2.HeaderText = "最低分";
+            this.low2.Name = "low2";
+            this.low2.ReadOnly = true;
             // 
             // callForm5
             // 
@@ -315,5 +353,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn average;
         private System.Windows.Forms.DataGridViewTextBoxColumn low;
         private System.Windows.Forms.DataGridViewTextBoxColumn high;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalScore2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn average2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn high2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn low2;
     }
 }
