@@ -29,13 +29,13 @@ namespace Operation
             //average = totalScore / 3;
 
 
-            DataGridView datagridview = new DataGridView();
-            DataGridViewTextBoxColumn dataGridView1 = new DataGridViewTextBoxColumn();
-            DataGridViewTextBoxColumn dataGridViewCol2 = new DataGridViewTextBoxColumn();
-            dataGridView1.name = txtName.Text;
-            dataGridViewCol1.HeaderText = "Name";
-            dataGridViewCol2.Name = "dataGridViewCol2";
-            dataGridViewCol2.HeaderText = "Count";
+            //DataGridView datagridview = new DataGridView();
+            //DataGridViewTextBoxColumn dataGridView1 = new DataGridViewTextBoxColumn();
+            //DataGridViewTextBoxColumn dataGridViewCol2 = new DataGridViewTextBoxColumn();
+            //dataGridView1.name = txtName.Text;
+            //dataGridViewCol1.HeaderText = "Name";
+            //dataGridViewCol2.Name = "dataGridViewCol2";
+            //dataGridViewCol2.HeaderText = "Count";
         }
 
         public void plan()
