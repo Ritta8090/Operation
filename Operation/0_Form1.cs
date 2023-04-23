@@ -119,5 +119,14 @@ namespace Operation
             splitContainer2.Panel2.Controls.Add(f10);
             f10.Show();
         }
+
+        private void callForm15(object sender, EventArgs e)
+        {
+            _15_guess f15 = new _15_guess();
+            f15.TopLevel = false;
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(f15);
+            f15.Show();
+        }
     }
 }

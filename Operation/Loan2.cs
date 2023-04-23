@@ -32,5 +32,6 @@ namespace Operation
             label10.Text = strForm1TextBox5;
         }
 
+
     }
 }

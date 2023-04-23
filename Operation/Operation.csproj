@@ -52,6 +52,12 @@
     <Compile Include="0_Form1.Designer.cs">
       <DependentUpon>0_Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="15_guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15_guess.Designer.cs">
+      <DependentUpon>15_guess.cs</DependentUpon>
+    </Compile>
     <Compile Include="9_ForDoWhile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,12 @@
       <DependentUpon>8_MyClac.cs</DependentUpon>
     </Compile>
     <Compile Include="gather.cs" />
+    <Compile Include="Guess2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess2.Designer.cs">
+      <DependentUpon>Guess2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loan2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="0_Form1.resx">
       <DependentUpon>0_Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15_guess.resx">
+      <DependentUpon>15_guess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="9_ForDoWhile.resx">
       <DependentUpon>9_ForDoWhile.cs</DependentUpon>
@@ -153,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="8_MyClac.resx">
       <DependentUpon>8_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess2.resx">
+      <DependentUpon>Guess2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan2.resx">
       <DependentUpon>Loan2.cs</DependentUpon>
